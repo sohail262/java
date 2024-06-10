@@ -4,11 +4,11 @@ public static void main(String[] args){
     int array[]={2,4,6,8,10,12,14};
     int key=8;
     int mid=(array.length)/2;
+    // mid value 
     if(key==array[mid]){
         System.out.println("value is at mid"+ mid);
         return;
     }
-    
     // left side of array condition
         if(key<array[mid]){
             for(int j=0;j<mid;j++){
