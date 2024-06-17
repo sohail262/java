@@ -1,4 +1,7 @@
 import java.util.*;
+//Brute Force method 
+//Time complexity is - Big O(n cube)
+
 public class java_max_subarray_sum{
     public static void main(String[] args){
         int numbers[]={2,4,6,8,10};
